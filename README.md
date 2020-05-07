@@ -19,7 +19,7 @@
     - Şehre ait kısa bir metin,
     - En az 4 mekana ait fotoğrafın olduğu bir slider
     - Slider daki resimlere tıklandığında resimlere ait içerik sayfaları açılmalı
-  
+   
   ##### Mirasımız Sayfası
     - Şehirdeki kültürel bir mekanın tanıtımı 
     
@@ -41,5 +41,3 @@
     - Sayfaların tasarım kodlarının yazılması,
     - Gerekli javascript ve php dosyalarının tamamlanması,
     - Ve son olarak eksik gördüğüm ve eklemek istediğim kısımların eklenmesi.
-    
-    
