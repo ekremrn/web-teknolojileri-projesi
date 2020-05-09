@@ -82,13 +82,13 @@
 
 	<header>
 
-		<div class="bg-info text-light jumbotron sudusen-jumbotron">
+		<div class="bg-info text-light jumbotron balikcilar-jumbotron">
 
 			<div class="container">
 
 				<div class="col-md-6 px-0">
 					<h1 class="display-4 font-italic">
-						Su Düşen Şelalesi
+						Giriş Ekranı
 					</h1>
 				</div>
 
@@ -102,20 +102,23 @@
 
 		<div class="container">
 			
-			<div class="row">
+			<form action="git-Login.php" method="POST">
 
-				<p>
-					Yalova'nın değerli parçalarından biri olan Sudüşen Şelalesi, Termal ilçesinin sınırları içinde bulunmaktadır. Doğal bir güzelliğin tam ortasında sadece yanınızda bulunan önemli insanlarla eğlenceli vakitler geçirmek için fazlasıyla çekicidir. Konuklarına sunduğu piknik alanlarında yeşil doğanın içerisinde, şelalenin tatlı mırıltısı eşliğinde bir şeyler atıştırırken aynı zamanda ruhunuzun dinlendiğini fark edeceksiniz. 
-				</p>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="text" name="email" class="form-control" placeholder="Email '123@sakarya.edu.tr'" required="required">
+				</div>
 
-				<p>
-					Sudüşen Şelalesi Yalova ili, Termal ilçesine bağlı Üvezpınar Köyü' nden 6 km uzaklıkta yer alıyor. İstanbul' dan günü birlik araba ile gidilecekse, Eskihisar’ dan kalkan arabalı vapur, Pendik' ten kalkan hızlı feribot veya körfez dolaşılırsa 2 saatte şelaleye varılabilir. Aynı zamanda yeni yapılan Osmangazi Köprüsü ile Yalova' ya 5 dk da geçebilirsiniz. Yalova Termal arası yaklaşık 11 km, Termal’ in hemen yukarısında yer alan Üvezpınar Köyü’ nden dağlara dogru devam edilirse 6 km sonra şelalenin bulunduğu yere ulaşılmaktadır. Asfalt olan bu 6 km.lik yol şelalenin bulunduğu yerden sonra da devam etmektedir ancak stabilizedir.
-				</p>
-				<p>
-					Ayrıca dışarıya göre oldukça serin olan bölgede saatlerce rahat rahat oturabilir ve dere boyunca yürüyüş yapabilirsiniz
-				</p>
-		
-			</div>
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input type="password" name="password" class="form-control" placeholder="Şifre '123'" required="required">
+				</div>
+
+				<button class="btn btn btn-info" type="submit">Gönder</button>
+
+				<br><br><br>
+
+			</form>
 
 		</div>
 
@@ -130,6 +133,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+	
 
 </body>
 

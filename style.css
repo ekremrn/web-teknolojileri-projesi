@@ -7,6 +7,10 @@ font-family: 'Lato', sans-serif;
 	border-bottom: 1px solid #fff;
 }
 
+.nav-item:hover {
+	color: blue;
+}
+
 .jumbotron 
 {
 	padding-top: 100px;
@@ -20,11 +24,6 @@ font-family: 'Lato', sans-serif;
 .container.a
 {
 	color: #fff;
-}
-
-.jumbotron 
-{
-	padding-top: 100px;
 }
 
 main
